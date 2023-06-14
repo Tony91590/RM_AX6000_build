@@ -32,7 +32,7 @@ env:
   SSH_ACTIONS: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
-  TZ: Asia/Shanghai
+  TZ: Europe/Paris
   ###############Name##############
   OPENWRT_NAME: hanwckf
 
