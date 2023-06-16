@@ -1,3 +1,5 @@
+192.168.31.1
+
 GitHub Actions OpenWrt Redmi AX6000
 
 https://github.com/hanwckf/immortalwrt-mt798x
