@@ -15,6 +15,8 @@ sed -i 's/zh_cn/auto/g' feeds/luci/modules/luci-base/root/etc/uci-defaults/luci-
 #======================
 cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/ddns.config feeds/packages/net/ddns-scripts/files/
 #======================
+package/network/services/dnsmasq
+#======================
 cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/vlmcsd.init packages/net/vlmcsd/files/
 #======================
 cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/turboacc feeds/luci/applications/luci-app-turboacc/root/etc/init.d/
