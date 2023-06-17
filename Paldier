@@ -25,3 +25,8 @@ nvram set flag_try_sys1_failed=0
 nvram set flag_try_sys2_failed=0
 nvram commit
 ubiformat /dev/mtd9 -y -f /tmp/swrt-rm-ax6000.ubi
+
+192.168.1.1
+
+192.168.50.1
+
