@@ -17,7 +17,7 @@ cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/ddns.config feeds/packages/net/ddns-
 #======================
 cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/300-DHCPv6.patch package/network/services/dnsmasq/patches/
 #======================
-cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/vlmcsd.init packages/net/vlmcsd/files/
+cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/vlmcsd.ini packages/net/vlmcsd/files/
 #======================
 cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/turboacc feeds/luci/applications/luci-app-turboacc/root/etc/init.d/
 #======================
