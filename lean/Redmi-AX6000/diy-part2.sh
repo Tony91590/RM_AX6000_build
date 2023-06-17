@@ -15,9 +15,7 @@ sed -i 's/zh_cn/auto/g' feeds/luci/modules/luci-base/root/etc/uci-defaults/luci-
 #======================
 cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/ddns.config feeds/packages/net/ddns-scripts/files/
 #======================
-#cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/lib/netifd/wireless/mac80211.sh package/kernel/mac80211/files/lib/netifd/wireless/
-#======================
-#cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/lib/wifi/mac80211.sh package/kernel/mac80211/files/lib/wifi/
+cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/vlmcsd.init packages/net/vlmcsd/files/
 #======================
 cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/turboacc feeds/luci/applications/luci-app-turboacc/root/etc/init.d/
 #======================
