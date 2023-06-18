@@ -15,6 +15,8 @@ sed -i 's/zh_cn/auto/g' feeds/luci/modules/luci-base/root/etc/uci-defaults/luci-
 #======================
 cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/ddns.config feeds/packages/net/ddns-scripts/files/
 #======================
+cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/config/Config-kernel.in config/Config-kernel.in
+#======================
 cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/300-DHCPv6-Honor-assigning-IPv6-address-based-on-MAC-add.patch package/network/services/dnsmasq/patches/
 #======================
 cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/vlmcsd.ini feeds/packages/net/vlmcsd/files/
