@@ -23,8 +23,8 @@ on:
 #    - cron: 0 16 * * *
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/Tony91590/lede
+  REPO_BRANCH: AX6000
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: lean/Redmi-AX6000/.config
   DIY_P1_SH: lean/Redmi-AX6000/diy-part1.sh
