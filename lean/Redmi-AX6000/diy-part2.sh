@@ -33,3 +33,7 @@ cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/default-settings/Makefile package/le
 cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/bin/config_generate package/base-files/files/bin/
 #======================
 cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/autocore/index.htm package/lean/autocore/files/arm/
+#======================
+cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/lib/netifd/wireless/mac80211.sh package/kernel/mac80211/files/lib/netifd/wireless/
+#======================
+cp $GITHUB_WORKSPACE/lean/Redmi-AX6000/data/lib/wifi/mac80211.sh package/kernel/mac80211/files/lib/wifi/
