@@ -24,7 +24,7 @@ on:
 
 env:
   REPO_URL: https://github.com/Tony91590/lede
-  REPO_BRANCH: AX6000
+  REPO_BRANCH: AX6000-old
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: lean/Redmi-AX6000/.config
   DIY_P1_SH: lean/Redmi-AX6000/diy-part1.sh
