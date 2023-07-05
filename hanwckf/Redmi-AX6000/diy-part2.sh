@@ -12,6 +12,7 @@ sed -i 's/ntp.tencent.com/0.openwrt.pool.ntp.org/g' package/emortal/default-sett
 sed -i 's/ntp1.aliyun.com/1.openwrt.pool.ntp.org/g' package/emortal/default-settings/files/99-default-settings-chinese
 sed -i 's/ntp.ntsc.ac.cn/2.openwrt.pool.ntp.org/g' package/emortal/default-settings/files/99-default-settings-chinese
 sed -i 's/cn.ntp.org.cn/3.openwrt.pool.ntp.org/g' package/emortal/default-settings/files/99-default-settings-chinese
+sed -i 's,mirrors.vsean.net/openwrt,downloads.openwrt.org,g' package/emortal/default-settings/files/99-default-settings-chinese
 #sed -i 's/mirrors.vsean.net/openwrt/downloads.openwrt.org/g' package/emortal/default-settings/files/99-default-settings-chinese
 sed -i 's/CST-8/auto/g' package/emortal/default-settings/files/99-default-settings-chinese
 sed -i 's/Asia/Shanghai/auto/g' package/emortal/default-settings/files/99-default-settings-chinese
