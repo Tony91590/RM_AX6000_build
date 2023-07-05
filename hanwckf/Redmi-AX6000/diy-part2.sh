@@ -15,3 +15,4 @@ sed -i 's/cn.ntp.org.cn/3.openwrt.pool.ntp.org/g' package/emortal/default-settin
 sed -i 's/mirrors.vsean.net/openwrt/downloads.openwrt.org/g' package/emortal/default-settings/files/99-default-settings-chinese
 sed -i 's/CST-8/auto/g' package/emortal/default-settings/files/99-default-settings-chinese
 sed -i 's/Asia/Shanghai/auto/g' package/emortal/default-settings/files/99-default-settings-chinese
+sed -i 's/ImmortalWrt/OpenWrt/g' include/version.mk
