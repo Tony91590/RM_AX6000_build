@@ -24,7 +24,7 @@ on:
 
 env:
   REPO_URL: https://github.com/Tony91590/immortalwrt
-  REPO_BRANCH: Oki
+  REPO_BRANCH: Update-miax6000
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: padavanonly/Redmi-AX6000/.config
   DIY_P1_SH: padavanonly/Redmi-AX6000/diy-part1.sh
