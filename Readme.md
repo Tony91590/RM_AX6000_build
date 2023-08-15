@@ -15,3 +15,6 @@ Tuto :
 http://82831.cmd8.com/post/139.html
 
 thank P3TERX for his amazing job: https://github.com/P3TERX/Actions-OpenWrt/
+
+
+sysupgrade -F -n /tmp/1.bin
